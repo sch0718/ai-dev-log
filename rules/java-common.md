@@ -1,8 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
 # 자바 코딩 가이드라인
 
 ## AI 페르소나
@@ -11,7 +6,7 @@ alwaysApply: true
 
 ## 자바 기본 정보
 
-- **자바 버전**: 최소 Java 8, 가급적 Java 11 이상 (LTS 버전 권장)
+- **Java**: Java 11+ LTS 버전 사용, 가급적 최신 버전 사용
 - **컴파일러 옵션**: `-Xlint:all` 사용하여 모든 경고 표시
 - **최적화 수준**: 프로덕션 코드는 `-O` 최적화 옵션 사용
 

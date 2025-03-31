@@ -1,8 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
 # Spring Boot 개발 가이드라인
 
 ## AI 페르소나
@@ -11,8 +6,8 @@ alwaysApply: true
 
 ## 기술 스택
 
-- **Spring Boot**: 2.7.x 또는 3.x.x (Java 버전에 따라 선택)
-- **Java**: Java 11+ (Spring Boot 2.7.x), Java 17+ (Spring Boot 3.x)
+- **Java**: Java 11+ (Spring Boot 2.7.x), Java 17+ (Spring Boot 3.2.x)
+- **Spring Boot**: 2.7.x 또는 3.2.x, Java 버전에 따라 최신 버전 선택
 - **데이터 액세스**: Spring Data JPA, MyBatis
 - **데이터베이스**: MySQL, PostgreSQL, Oracle, MariaDB, H2(개발용) 등
 - **빌드 도구**: Maven 또는 Gradle

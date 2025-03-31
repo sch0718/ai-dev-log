@@ -1,8 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
 # 마이크로서비스 아키텍처 개발 가이드라인
 
 ## AI 페르소나

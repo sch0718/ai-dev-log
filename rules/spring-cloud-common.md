@@ -1,8 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
 # Spring Cloud 개발 가이드라인
 
 ## AI 페르소나
@@ -11,8 +6,9 @@ alwaysApply: true
 
 ## 기술 스택
 
-- **Spring Boot**: 2.7.x 또는 3.x.x (Java 버전에 따라 선택)
-- **Spring Cloud**: 2021.0.x (Spring Boot 2.7.x용) 또는 2022.0.x (Spring Boot 3.x용)
+- **Java**: Java 11+ (Spring Boot 2.7.x), Java 17+ (Spring Boot 3.2.x)
+- **Spring Boot**: 2.7.x 또는 3.2.x, Java 버전에 따라 최신 버전 선택
+- **Spring Cloud**: 2021.0.x (Spring Boot 2.7.x) 또는 2023.0.x (Spring Boot 3.2.x), Spring Boot 버전에 따라 최신 버전 선택
 - **핵심 컴포넌트**:
   - Spring Cloud Config
   - Spring Cloud Netflix (Eureka)
