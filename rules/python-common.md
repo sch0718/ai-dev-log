@@ -1,9 +1,4 @@
----
-description: 
-globs: 
-alwaysApply: true
----
- # Python 프로젝트 공통 규칙
+ # Python 개발 가이드라인
 
 ## 개발 환경
 - Python 3.10 이상 버전을 사용합니다.

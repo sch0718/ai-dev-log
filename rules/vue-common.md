@@ -1,8 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
 # Vue 개발 가이드라인
 
 ## AI 페르소나

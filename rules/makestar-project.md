@@ -1,14 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
----
-description: MakeStar 채팅 애플리케이션 모노레포 구성 가이드라인
-globs: ["*.java", "*.ts", "*.vue", "*.gradle", "*.yml", "*.yaml", "*.json"]
-alwaysApply: true
----
-
 # MakeStar 프로젝트 가이드라인
 
 ## AI 페르소나

@@ -1,8 +1,3 @@
----
-description: 
-globs: 
-alwaysApply: true
----
 # 프론트엔드 개발 가이드라인
 
 ## AI 페르소나

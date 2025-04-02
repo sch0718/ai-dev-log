@@ -1,9 +1,3 @@
----
-description: React와 TypeScript 개발을 위한 가이드라인
-globs: ["*.tsx", "*.jsx", "*.ts", "*.js"]
-alwaysApply: true
----
-
 # React 개발 가이드라인
 
 ## AI 페르소나

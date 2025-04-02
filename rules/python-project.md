@@ -1,9 +1,4 @@
----
-description: 
-globs: 
-alwaysApply: true
----
-# airspeeder-api-tesyo 프로젝트 규칙
+# 파이썬 프로젝트 가이드라인
 
 ## 개발 환경 및 프레임워크
 - Python 3.10 버전을 사용합니다.

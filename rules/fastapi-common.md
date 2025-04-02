@@ -1,14 +1,4 @@
----
-description: 
-globs: 
-alwaysApply: true
----
----
-description: 
-globs: 
-alwaysApply: true
----
- # FastAPI 프로젝트 공통 규칙
+ # FastAPI 개발 가이드라인
 
 ## 개발 환경 및 기본 프레임워크
 - Python 3.10 이상 버전을 사용합니다.
