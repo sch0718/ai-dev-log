@@ -109,13 +109,13 @@ graph TB
 
 ### 서비스 구성
 1. **Vendor 서비스**
-   - FastAPI, Python 3.10 기반
+   - FastAPI, Python 기반
    - 가게 기본 정보 관리 (ID, 주소, 배달시간 설정, 모델 예측 사용 여부)
    - PostgreSQL DB 사용
    - Redis 캐싱 적용 (최근 조회 가게 예측시간)
 
 2. **Geo 서비스**
-   - FastAPI, Python 3.10 기반
+   - FastAPI, Python 기반
    - 지리 연산 담당 (거리 계산, geo hash, reverse geocoding 등)
    - 자체 메모리에 지역 정보 데이터 캐싱
    - ML 모델 예측에 필요한 파라미터 제공
