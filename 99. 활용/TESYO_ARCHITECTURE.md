@@ -140,6 +140,8 @@ graph TB
 - **모니터링**: Datadog (인그레스 트래픽 기반 k8s auto scaling)
 - **클라우드 관리**: Terraform으로 GCP 리소스 전체 관리 (GKE, 데이터베이스, 네트워크, IAM, 스토리지 등)
 
+> **참고**: 개발(Dev), 스테이징(Staging), 프로덕션(Production) 환경 모두 위와 동일한 아키텍처 구성을 사용하고 있어 별도 환경별 구성은 문서에 표기하지 않았습니다. 환경 간 차이점은 리소스 할당량, 데이터베이스 크기, 접근 제어 정책에만 있습니다.
+
 ### 데이터 흐름
 1. **기본 데이터 파이프라인**: BigQuery DW/Data Mart → Airflow 배치 → PostgreSQL
 2. **실시간 데이터 동기화**: Confluent Kafka Topic → PostgreSQL (Confluent 기능 활용)
